@@ -8,15 +8,15 @@
   flex-direction: row;
 }
 
-@mixin centerFlex{
+@mixin centerFlex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 @mixin fullScreen {
-  width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+  width: 100%;
 }
 
 @mixin backgroundImg($url) {

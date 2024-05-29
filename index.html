@@ -19,12 +19,18 @@
       <nav class="navbar-nav">
         <ul class="nav-links">
           <a href="#home" class="nav-link"><i class="fa-solid fa-house"></i></a>
-          <a href="#about-me" class="nav-link"><i class="fa-solid fa-user"></i></a>
-          <a href="#works" class="nav-link"><i class="fa-solid fa-briefcase"></i></a>
+          <a href="#about-me" class="nav-link"
+            ><i class="fa-solid fa-user"></i
+          ></a>
+          <a href="#works" class="nav-link"
+            ><i class="fa-solid fa-briefcase"></i
+          ></a>
           <a href="#certification" class="nav-link">
             <i class="fa-solid fa-certificate"></i>
           </a>
-          <a href="#contacts" class="nav-link"><i class="fa-solid fa-comment"></i></a>
+          <a href="#contacts" class="nav-link"
+            ><i class="fa-solid fa-comment"></i
+          ></a>
         </ul>
       </nav>
     </header>
@@ -33,7 +39,7 @@
       <section class="main-section home-section" id="home">
         <article class="home-info">
           <h2 class="home-title">Hi there!</h2>
-          <h1 class="home-name">I'm <span id="name">no</span></h1>
+          <h1 class="home-name">I'm <span id="name">Filippo</span></h1>
           <p class="home-desc">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero
             totam modi, aspernatur obcaecati sapiente laboriosam sint quibusdam,
@@ -47,9 +53,64 @@
       <section class="main-section about-section" id="about-me"></section>
       <section class="main-section" id="works"></section>
       <section class="main-section" id="certifications"></section>
-      <section class="main-section" id="contacts"></section>
+      <section class="main-section contacts-section" id="contacts">
+        <article class="contacts-info">dsa</article>
+        <article class="contacts-form">
+          <form id="contact-form">
+            <h1>Contact Me</h1>
+            <div class="form-group">
+              <div class="form-sub">
+                <div class="form-sub">
+                  <label for="name" hidden>Nome</label>
+                  <input type="text" name="name" placeholder="Nome" required />
+                </div>
+                <label for="surname" hidden>Cognome</label>
+                <input
+                  type="text"
+                  name="surname"
+                  id="surname"
+                  placeholder="Cognome"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-sub">
+                <!-- <i class="fa-solid fa-envelope"></i> -->
+                <label for="email" hidden>Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <div class="form-sub">
+                <!-- <i class="fa-solid fa-phone"></i> -->
+                <label for="phone" hidden>Telefono</label>
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  placeholder="Telefono"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message" hidden>Messaggio</label>
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Messaggio"
+                required
+              ></textarea>
+            </div>
+          </form>
+        </article>
+      </section>
     </main>
 
-    <script src="./scripts/app.js"></script>
+    <script src="./dist/app.js"></script>
   </body>
 </html>

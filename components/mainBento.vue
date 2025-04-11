@@ -60,7 +60,7 @@
           </div>
         </div>
       </Window>
-      <Window title="My socials" class="col-span-1 row-span-1 bg-teal-500">
+      <Window title="My socials" class="col-span-1 row-span-1">
         <div class="h-full flex justify-evenly items-center text-7xl">
           <NuxtLink to="https://github.com/Filippo-Crespi" target="_blank">
             <div class="flex flex-col items-center">

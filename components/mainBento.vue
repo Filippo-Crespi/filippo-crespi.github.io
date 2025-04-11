@@ -7,47 +7,47 @@
         <div class="h-full flex justify-evenly items-center text-7xl">
           <div class="flex flex-col items-center">
             <Icon name="tabler:brand-html5" />
-            <span class="text-xl">HTML</span>
+            <span class="text-lg">HTML</span>
           </div>
           <div class="flex flex-col items-center">
             <Icon name="tabler:brand-css3" />
-            <span class="text-xl">CSS</span>
+            <span class="text-lg">CSS</span>
           </div>
           <div class="flex flex-col items-center">
             <Icon name="tabler:brand-javascript" />
-            <span class="text-xl">Javascript</span>
-          </div>
-          <div class="flex flex-col items-center">
-            <Icon name="tabler:brand-typescript" />
-            <span class="text-xl">Typescript</span>
-          </div>
-          <div class="flex flex-col items-center">
-            <Icon name="tabler:brand-vue" />
-            <span class="text-xl">Vue</span>
+            <span class="text-lg">Javascript</span>
           </div>
           <div class="flex flex-col items-center">
             <Icon name="tabler:brand-nuxt" />
-            <span class="text-xl">Nuxt</span>
+            <span class="text-lg">Nuxt</span>
           </div>
           <div class="flex flex-col items-center">
-            <Icon name="tabler:brand-tailwindcss" />
-            <span class="text-xl">Tailwind</span>
+            <Icon name="tabler:brand-vue" />
+            <span class="text-lg">Vue</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <Icon name="tabler:brand-typescript" />
+            <span class="text-lg">Typescript</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <Icon name="tabler:brand-tailwind" />
+            <span class="text-lg">Tailwind</span>
           </div>
         </div>
       </Window>
-      <Window class="col-span-1 row-span-1 bg-blue-500">github</Window>
-      <Window class="col-span-1 row-span-2 bg-green-500">?</Window>
-      <Window class="col-span-1 row-span-1 bg-yellow-500">
+      <Window title="Github" class="col-span-1 row-span-1 bg-blue-500"></Window>
+      <Window title="?" class="col-span-1 row-span-2 bg-green-500"></Window>
+      <Window title="My favourite song" class="col-span-1 row-span-1 bg-yellow-500">
         <TopSong />
       </Window>
-      <Window class="col-span-2 row-span-2 bg-purple-500">
-        <div class="half-parent h-full">
-          <Window class="col-span-1 row-span-1 bg-cyan-500">img</Window>
-          <Window class="col-span-1 row-span-1 bg-lime-500">?</Window>
-          <Window class="col-span-2 row-span-1 bg-lime-500">intro text</Window>
+      <Window title="Something about me" class="col-span-2 row-span-2 bg-purple-500">
+        <div class="half-parent h-full p-4">
+          <Window title="That's me!" class="col-span-1 row-span-1 bg-cyan-500"></Window>
+          <Window title="?" class="col-span-1 row-span-1 bg-lime-500"></Window>
+          <Window title="What you need to know" class="col-span-2 row-span-1 bg-lime-500"></Window>
         </div>
       </Window>
-      <Window class="col-span-1 row-span-2 bg-pink-500">?</Window>
+      <Window title="?" class="col-span-1 row-span-2 bg-pink-500"></Window>
       <Window title="I'm currently learning" class="col-span-1 row-span-1">
         <div class="h-full flex justify-evenly items-center text-7xl">
           <div class="flex flex-col items-center">
@@ -60,8 +60,23 @@
           </div>
         </div>
       </Window>
-      <Window class="col-span-1 row-span-1 bg-teal-500">socials</Window>
-      <Window class="col-span-2 row-span-1 bg-gray-500">projects</Window>
+      <Window title="My socials" class="col-span-1 row-span-1 bg-teal-500">
+        <div class="h-full flex justify-evenly items-center text-7xl">
+          <NuxtLink to="https://github.com/Filippo-Crespi" target="_blank">
+            <div class="flex flex-col items-center">
+              <Icon name="tabler:brand-github" />
+              <span class="text-xl">Github</span>
+            </div>
+          </NuxtLink>
+          <NuxtLink to="https://www.linkedin.com/in/your-profile" target="_blank">
+            <div class="flex flex-col items-center">
+              <Icon name="tabler:brand-linkedin" />
+              <span class="text-xl">LinkedIn</span>
+            </div>
+          </NuxtLink>
+        </div>
+      </Window>
+      <Window title="My recent projects" class="col-span-2 row-span-1 bg-gray-500"></Window>
     </div>
   </div>
 </template>

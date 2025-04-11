@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
+<<<<<<< HEAD
   tailwindcss: {
     cssPath: "~/assets/css/tailwin.css",
     configPath: "tailwind.config.js",
@@ -20,6 +21,8 @@ export default defineNuxtConfig({
       crawlLinks: true,
     },
   },
+=======
+>>>>>>> parent of e9f9347 (feat: update nuxtjs workflow to include Tailwind CSS support and enhance build process)
   modules: ["@nuxtjs/tailwindcss", "@nuxt/icon", "@nuxt/image", "@nuxt/fonts"],
   css: ["/assets/css/main.css"],
 });

@@ -2,6 +2,12 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
   modules: ["@nuxtjs/tailwindcss", "@nuxt/icon", "@nuxt/image", "@nuxt/fonts"],
   css: ["/assets/css/main.css"],
 });

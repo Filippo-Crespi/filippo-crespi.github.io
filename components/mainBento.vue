@@ -3,7 +3,38 @@
 <template>
   <div>
     <div class="parent h-[calc(100vh-4rem)] px-16 py-8">
-      <Window class="col-span-2 row-span-1 bg-red-500">stack</Window>
+      <Window title="My current tech stack" class="col-span-2 row-span-1 bg-red-500">
+        <div class="h-full flex justify-evenly items-center text-7xl">
+          <div class="flex flex-col items-center">
+            <Icon name="tabler:brand-html5" />
+            <span class="text-xl">HTML</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <Icon name="tabler:brand-css3" />
+            <span class="text-xl">CSS</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <Icon name="tabler:brand-javascript" />
+            <span class="text-xl">Javascript</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <Icon name="tabler:brand-typescript" />
+            <span class="text-xl">Typescript</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <Icon name="tabler:brand-vue" />
+            <span class="text-xl">Vue</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <Icon name="tabler:brand-nuxt" />
+            <span class="text-xl">Nuxt</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <Icon name="tabler:brand-tailwindcss" />
+            <span class="text-xl">Tailwind</span>
+          </div>
+        </div>
+      </Window>
       <Window class="col-span-1 row-span-1 bg-blue-500">github</Window>
       <Window class="col-span-1 row-span-2 bg-green-500">?</Window>
       <Window class="col-span-1 row-span-1 bg-yellow-500">song</Window>

@@ -3,7 +3,7 @@
 <template>
   <div>
     <div class="parent h-[calc(100vh-4rem)] px-16 py-8">
-      <Window title="My current tech stack" class="col-span-2 row-span-1">
+      <Window title="My current stack" class="col-span-2 row-span-1">
         <div class="h-full flex justify-evenly items-center text-7xl">
           <div class="flex flex-col items-center">
             <Icon name="tabler:brand-html5" />
@@ -40,11 +40,22 @@
       <Window title="My favourite song" class="col-span-1 row-span-1 bg-yellow-500">
         <TopSong />
       </Window>
-      <Window title="Something about me" class="col-span-2 row-span-2 bg-purple-500">
+      <Window title="Something about me" class="col-span-2 row-span-2">
         <div class="half-parent h-full p-4">
-          <Window title="That's me!" class="col-span-1 row-span-1 bg-cyan-500"></Window>
-          <Window title="?" class="col-span-1 row-span-1 bg-lime-500"></Window>
-          <Window title="What you need to know" class="col-span-2 row-span-1 bg-lime-500"></Window>
+          <Window title="I'm..." class="col-span-1 row-span-1">
+            <span class="h-full flex items-center justify-center text-4xl font-bold text-center">Filippo <br />
+              Crespi</span>
+          </Window>
+          <Window title="That's me!" class="col-span-1 row-span-2">
+            <div class="h-full flex items-center justify-center">
+              <img src="https://placehold.co/300" alt="My avatar" class="h-full w-full contain-size object-cover" />
+            </div>
+          </Window>
+          <Window title="What you need to know" class="col-span-1 row-span-1">
+            <div class="h-full p-4 font-medium">
+              I'm a computer science student, on my way to become a full-stack web developer.
+            </div>
+          </Window>
         </div>
       </Window>
       <Window title="?" class="col-span-1 row-span-2 bg-pink-500"></Window>
@@ -89,6 +100,7 @@
   grid-column-gap: 8px;
   grid-row-gap: 8px;
 }
+
 .half-parent {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

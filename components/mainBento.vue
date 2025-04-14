@@ -48,7 +48,7 @@
           </Window>
           <Window title="That's me!" class="col-span-1 row-span-2">
             <div class="h-full flex items-center justify-center">
-              <img src="https://placehold.co/300" alt="My avatar" class="h-full w-full contain-size object-cover" />
+              <img src="/imgs/portrait.jpg" alt="My avatar" class="h-full w-full contain-size object-cover grayscale" />
             </div>
           </Window>
           <Window title="What you need to know" class="col-span-1 row-span-1">

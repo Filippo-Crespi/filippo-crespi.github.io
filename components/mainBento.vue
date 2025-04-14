@@ -37,7 +37,7 @@
       </Window>
       <Window title="Github" class="col-span-1 row-span-1 bg-blue-500"></Window>
       <Window title="?" class="col-span-1 row-span-2 bg-green-500"></Window>
-      <Window title="My favourite song" class="col-span-1 row-span-1 bg-yellow-500">
+      <Window title="My favourite song" class="col-span-1 row-span-1">
         <TopSong />
       </Window>
       <Window title="Something about me" class="col-span-2 row-span-2">

@@ -1,0 +1,1 @@
+.parent{grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(4,1fr)}.half-parent,.parent{display:grid;grid-column-gap:8px;grid-row-gap:8px}.half-parent{grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(2,1fr)}
